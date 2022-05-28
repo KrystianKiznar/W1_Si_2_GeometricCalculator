@@ -79,7 +79,7 @@ int triangle()
 	perimeter = AB_length + BC_length + CA_length;
 	field = abs((Ax * (By - Cy) + Bx * (Cy - Ay) + Cx * (Ay - By)) / 2);
 
-	printf("The perimeter is: %\.2f\n", perimeter);
+	printf("The perimeter is: %.2f\n", perimeter);
 	printf("The field has: %.2f\n", field);
 	return 0;
 }
@@ -117,7 +117,7 @@ int quadrangle()
 	field2 = abs((Ax * (Cy - Dy) + Cx * (Dy - Ay) + Dx * (Ay - Cy)) / 2);
 
 	field = field1 + field2;
-	printf("The perimeter is: %\.2f\n", perimeter);
+	printf("The perimeter is: %.2f\n", perimeter);
 	printf("The field has: %.2f\n", field);
 	return 0;
 }
